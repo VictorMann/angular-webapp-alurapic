@@ -11,3 +11,16 @@ ng new <nome-projeto>
 
 - iniciar servidor
 ng serve --open
+
+=========================
+MODULO 1
+
+Vimos neste capítulo:
+
+Instalação do Angular CLI
+Criação de um novo projeto com a ferramenta e como executá-lo
+Compreensão da estrutura criada
+Data binding através de Angular Expression
+Data binding de atributos
+Convenções adotadas até o momento
+=========================
