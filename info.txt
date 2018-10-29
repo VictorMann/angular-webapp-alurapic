@@ -1,0 +1,13 @@
+Comandos iniciais
+
+- para instalar o Angular
+npm install -g @angular/cli // pode-se especificar a versao com @x.x.x no final do comando
+
+- show version
+ng --version
+
+- criar projeto Angular
+ng new <nome-projeto>
+
+- iniciar servidor
+ng serve --open
