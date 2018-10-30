@@ -1,4 +1,4 @@
-import { Component } from "@angular/core";
+import { Component, Input } from "@angular/core";
 
 @Component({
     selector: 'ap-photo',
@@ -6,6 +6,6 @@ import { Component } from "@angular/core";
 })
 export class PhotoComponent
 {
-    url = 'https://meusanimais.com.br/wp-content/uploads/2018/02/passaro-colorido-1.jpg';
-    description = 'Calopsita';
+    @Input() url = '';
+    @Input() description = '';
 }
