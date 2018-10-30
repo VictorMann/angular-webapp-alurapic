@@ -8,4 +8,6 @@ export class PhotoComponent
 {
     @Input() url = '';
     @Input() description = '';
+
+    
 }
