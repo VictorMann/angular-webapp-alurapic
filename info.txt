@@ -67,3 +67,14 @@ Adequação dos dados recebidos pelo componente
 Quando a fase OnInit não é suficiente
 A interface OnChanges e como interagir com SimpleChanges
 =========================
+MODULO 1 p2
+
+Vimos neste capítulo:
+
+Criação de um componente de Login
+Validação de formulário
+Como componentizar mensagens de validação
+Como enviar crendenciais para a API
+Como redirecionar e obter referências do template (ViewChild)
+Descobrindo a plataforma de execução
+=========================
