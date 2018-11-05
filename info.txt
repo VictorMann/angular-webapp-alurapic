@@ -88,3 +88,13 @@ A segurança do token
 Como enviar crendenciais para a API
 O cabeçalho da nossa aplicação
 =========================
+MODULO 3 p2
+
+Vimos neste capítulo:
+
+Como separar responsabilidades
+Qual o papel do BehaviorSubject
+utilização do pipe async
+A implementação do logout
+A diretiva routerLink
+=========================
