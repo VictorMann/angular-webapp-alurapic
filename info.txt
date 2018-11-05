@@ -78,3 +78,13 @@ Como enviar crendenciais para a API
 Como redirecionar e obter referências do template (ViewChild)
 Descobrindo a plataforma de execução
 =========================
+MODULO 2 p2
+
+Vimos neste capítulo:
+
+Como acessar o header de resposta
+Realizar armazenamento de token
+A segurança do token
+Como enviar crendenciais para a API
+O cabeçalho da nossa aplicação
+=========================
