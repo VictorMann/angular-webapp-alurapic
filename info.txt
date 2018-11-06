@@ -98,3 +98,13 @@ utilização do pipe async
 A implementação do logout
 A diretiva routerLink
 =========================
+MODULO 4 p2
+
+Vimos neste capítulo:
+
+Criação de um componente de registro
+Validação de formulário de registro
+Como criar nosso próprio validador
+Validando de maneira assíncrona
+Submissão de dados
+=========================
