@@ -90,3 +90,10 @@ Como criar nosso próprio validador
 Validando de maneira assíncrona
 Submissão de dados
 =========================
+MODULO 5 p2
+
+Rotas filhas
+Buildando o projeto
+Lazy loading e code splitting
+Interceptadore e envio de token
+=========================
