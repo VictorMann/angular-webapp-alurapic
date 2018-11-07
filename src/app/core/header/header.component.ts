@@ -1,8 +1,9 @@
+import { Router } from '@angular/router';
 import { Component } from '@angular/core';
+import { Observable } from 'rxjs';
+
 import { UserService } from '../user/user.service';
 import { User } from '../user/user';
-import { Observable } from 'rxjs';
-import { Router } from '@angular/router';
 
 @Component({
     selector: 'ap-header',
