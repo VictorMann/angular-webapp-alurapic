@@ -2,7 +2,8 @@
   <form [formGroup]="photoForm" (submit)="upload()" class="row">
     <div class="col-md-6 text-center">
       <div class="form-group" *ngIf="!preview; else previewImage">
-        <button type="button" (click)="fileInput.click()" class="btn btn-primary">
+        <!-- immediateClick é uma directive -->
+        <button immediateClick type="button" (click)="fileInput.click()" class="btn btn-primary">
             <i class="fa fa-image fa-4x align-middle"></i>
         </button>
         <!-- #fileInput : variável de template -->
