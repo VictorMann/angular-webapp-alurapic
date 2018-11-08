@@ -1,9 +1,27 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
+import { PhotoService } from '../photo/photo.service';
+import { Photo } from '../photo/photo';
+import { Observable } from 'rxjs';
 
 @Component({
-    templateUrl: './photo-details.component.html'
+    templateUrl: './photo-details.component.html',
+    styleUrls: ['photo-details.css']
 })
-export class PhotoDetailsComponent 
+export class PhotoDetailsComponent implements OnInit
 {
-    
+    // photo: Photo;
+    photo$: Observable<Photo>;
+
+    constructor (
+        private route: ActivatedRoute,
+        private photoService: PhotoService
+    ) {}
+
+    ngOnInit (): void
+    {
+        const id = this.route.snapshot.params.photoId;
+        this.photo$ = this.photoService.findById(id);
+        // this.photoService.findById(id).subscribe(photo => this.photo = photo);
+    }
 }
