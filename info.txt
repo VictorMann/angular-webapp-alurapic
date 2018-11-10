@@ -97,3 +97,12 @@ Buildando o projeto
 Lazy loading e code splitting
 Interceptadore e envio de token
 =========================
+Aprendemos que através da função of podemos criar um Observable de um tipo qualquer. Temos o seguinte trecho de código:
+
+import { of } from 'rxjs';
+
+function myFunc(number: number) {
+    return number % 2 ? of('impar') : of('par')
+}
+
+myFunc(10).subscribe(msg => alert(msg));
